@@ -15,7 +15,7 @@
     c) student.greeting() \
     d) student['Favorite Teacher'].name \
     e) student.courseLoad[0] \
-13. 
+13. \
     a) '32' because the integer 2 is converted into a string, and then string concatenation is executed. \
     b) 1 because the string '3' is converted into an integer, and then subtraction is executed. \
     c) 3 because null is being added to the integer 3, and in mathematical expression, null becomes equivalent to 0. \
@@ -24,7 +24,7 @@
     f) 0 because in mathematical expression, false and null both become equivalent to 0. \
     g) '3undefined' because undefined is being added to the string '3', so then undefined is converted to the string 'undefined', and string concatenation is executed. \
     h) NaN because in mathematical expression, undefined becomes NaN and cannot be added to an integer. \
-14. 
+14. \
     a) True because in string/integer comparison, '2' becomes the integer 2. \
     b) False because in string comparison, the first characters are compared, and '2' > '1'. \
     c) True because in string/integer comparison, '2' becomes the integer 2. \

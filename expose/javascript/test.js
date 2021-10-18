@@ -1,10 +1,8 @@
-function sumValues (num1, num2, add) {
-    if (add) {
-        var result = 0;
-        result = num1 + num2;
-        console.log('values added: ', result);
-    } else return;
-    console.log('final result: ', result);
+function printNums() {
+    console.log(1);
+    setTimeout(function() { console.log(2); }, 1000);
+    setTimeout(function() { console.log(3); }, 0);
+    console.log(4);
 }
 
-sumValues(10, 10, true);
+printNums();

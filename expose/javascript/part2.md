@@ -14,7 +14,7 @@
     b) student['Grad Year'] \
     c) student.greeting() \
     d) student['Favorite Teacher'].name \
-    e) student.courseLoad[0] \
+    e) student.courseLoad[0]
 13. \
     a) '32' because the integer 2 is converted into a string, and then string concatenation is executed. \
     b) 1 because the string '3' is converted into an integer, and then subtraction is executed. \
@@ -23,14 +23,14 @@
     e) 4 because true is being added to the integer 3, and in mathematical expression, true becomes equivalent to 1. \
     f) 0 because in mathematical expression, false and null both become equivalent to 0. \
     g) '3undefined' because undefined is being added to the string '3', so then undefined is converted to the string 'undefined', and string concatenation is executed. \
-    h) NaN because in mathematical expression, undefined becomes NaN and cannot be added to an integer. \
+    h) NaN because in mathematical expression, undefined becomes NaN and cannot be added to an integer.
 14. \
     a) True because in string/integer comparison, '2' becomes the integer 2. \
     b) False because in string comparison, the first characters are compared, and '2' > '1'. \
     c) True because in string/integer comparison, '2' becomes the integer 2. \
     d) False because === also compares types, and the two values are of different types. \
     e) False because in Boolean/integer comparison, true because the integer 1. \
-    f) True because Boolean(2) is equivalent to true. \
+    f) True because Boolean(2) is equivalent to true.
 15. == and === are different because === checks for type equality, whereas == allows for type conversions.
 16. Answer in part2-question16.js
 17. The result is '[2, 4, 6]'. The 'modifyArray' function takes in an array 'array' and a function 'callback' as parameters. The function then initializes a new empty array called 'newArr'. Then, the function iterates through 'array' and performs the 'callback' function on each element of the array. It then pushes each modified element to 'newArr', and then returns 'newArr'. In this case, the 'callback' function ('doSomething') multiplies each element by 2. So, the [1, 2, 3] array becomes modified to [2, 4, 6].

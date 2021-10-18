@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are strings when added, so the program is concatenating the two numbers instead of adding them. For example, "adding" 13 and 14 produces 1314 instead of 27.
+2. I would fix it by using the Number() function on num1 and num2 to convert them to numbers instead of strings.
